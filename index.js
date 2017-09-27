@@ -3,6 +3,7 @@ import React, { Component, PropTypes } from 'react';
 const jQuery = window['$'];
 
 class Seismograph extends Component {
+  
   constructor(props){
     super(props);
     Chart.defaults.global.animation = false;
